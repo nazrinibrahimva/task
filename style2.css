@@ -6,41 +6,66 @@
 section{
     width: 100%;
     height: 100vh;
-    background-color: beige;
+    background-color: aqua;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 200px;
 }
 .bir{
-    width: 500px;
-    height: 500px;
-    background-color: blue;
-    display: flex;
-    align-items: end;
+    width: 25%;
+    height: 100vh;
+    background-color: rgb(12, 21, 38);
+    padding: 50px;
+    color: white;
 }
-
+h1{
+    padding: 40px;
+}
+p{
+    padding: 10px;
+}
+a{
+    color: white;
+}
+button{
+    color: white;
+    background-color: rgb(12, 21, 38);
+}
 .iki{
-    width: 500px;
-    height: 150px;
-    background-color: black;
+    width: 75%;
+    height: 100vh;
+    background-color: brown;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
 }
-
-.uc{
-    width: 500px;
-    height: 500px;
-    background-color: blue;
-    display: flex;
-    align-items: end;
-}
-.dord{
-    width: 500px;
-    height: 150px;
-    background-color: black;
-}
-img{
+.ust{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 50vh;
+    background-color: blueviolet;
+    display: flex;
+}
+.sol{
+    width: 50%;
+    height: 50vh;
+    background-color: orangered;
+}
+.sol img{
+    width: 100%;
+    height: 50vh;
+}
+.saq{
+    width: 50%;
+    height: 50vh;
+    background-color:white;
+}
+.saq p{
+   padding: 30px;
+}
+.alt{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+}
+.alt img{
+    width: 100%;
+    height: 50vh;
 }
